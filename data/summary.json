@@ -1,0 +1,933 @@
+{
+  "kpis": {
+    "total_accounts": 75000,
+    "total_balance": 912301863.8299999,
+    "digital_adoption": 0.5014266666666667,
+    "digital_adoption_target": 0.65,
+    "cross_sell_ratio": 1.96212,
+    "cross_sell_target": 2.5,
+    "blended_csat": 4.052772333333333,
+    "csat_target": 4.3,
+    "complaint_rate": 0.13477,
+    "complaint_target": 0.1,
+    "active_rate": 0.8811866666666667,
+    "active_target": 0.9,
+    "contact_center_complaint_rate": 0.3409596896609884
+  },
+  "channel_stats": [
+    {
+      "channel": "Branch",
+      "volume": 67687,
+      "avg_duration": 12.027,
+      "avg_csat": 4.217,
+      "resolution_rate": 1.0,
+      "complaint_rate": 0.0
+    },
+    {
+      "channel": "Contact_Center",
+      "volume": 118580,
+      "avg_duration": 7.007,
+      "avg_csat": 3.804,
+      "resolution_rate": 0.857,
+      "complaint_rate": 0.341
+    },
+    {
+      "channel": "Digital",
+      "volume": 113733,
+      "avg_duration": 3.006,
+      "avg_csat": 4.215,
+      "resolution_rate": 1.0,
+      "complaint_rate": 0.0
+    }
+  ],
+  "payment_stats": [
+    {
+      "payment_type": "ACH",
+      "volume": 60058,
+      "total_amount": 82150998.01,
+      "decline_rate": 0.03
+    },
+    {
+      "payment_type": "Check",
+      "volume": 20022,
+      "total_amount": 7976294.56,
+      "decline_rate": 0.03
+    },
+    {
+      "payment_type": "Debit_Card",
+      "volume": 109900,
+      "total_amount": 8071560.61,
+      "decline_rate": 0.03
+    },
+    {
+      "payment_type": "Wire",
+      "volume": 10020,
+      "total_amount": 220558756.52,
+      "decline_rate": 0.03
+    }
+  ],
+  "risk_distribution": {
+    "Green": 55983,
+    "Amber": 18957,
+    "Red": 60
+  },
+  "state_market": [
+    {
+      "state": "MA",
+      "accounts": 2825,
+      "balance_trend": 0.232,
+      "digital_adoption": 0.507
+    },
+    {
+      "state": "GA",
+      "accounts": 3131,
+      "balance_trend": -0.282,
+      "digital_adoption": 0.502
+    },
+    {
+      "state": "PA",
+      "accounts": 3575,
+      "balance_trend": -0.175,
+      "digital_adoption": 0.503
+    },
+    {
+      "state": "NY",
+      "accounts": 3966,
+      "balance_trend": -0.081,
+      "digital_adoption": 0.508
+    },
+    {
+      "state": "CA",
+      "accounts": 4291,
+      "balance_trend": -0.013,
+      "digital_adoption": 0.485
+    },
+    {
+      "state": "DC",
+      "accounts": 4391,
+      "balance_trend": 0.027,
+      "digital_adoption": 0.502
+    },
+    {
+      "state": "MD",
+      "accounts": 4799,
+      "balance_trend": -0.016,
+      "digital_adoption": 0.503
+    },
+    {
+      "state": "IL",
+      "accounts": 5057,
+      "balance_trend": 0.13,
+      "digital_adoption": 0.506
+    },
+    {
+      "state": "WA",
+      "accounts": 5058,
+      "balance_trend": 0.093,
+      "digital_adoption": 0.502
+    },
+    {
+      "state": "FL",
+      "accounts": 5264,
+      "balance_trend": 0.079,
+      "digital_adoption": 0.497
+    },
+    {
+      "state": "NC",
+      "accounts": 5499,
+      "balance_trend": 0.071,
+      "digital_adoption": 0.5
+    },
+    {
+      "state": "VA",
+      "accounts": 6191,
+      "balance_trend": 0.029,
+      "digital_adoption": 0.507
+    },
+    {
+      "state": "TX",
+      "accounts": 6557,
+      "balance_trend": -0.09,
+      "digital_adoption": 0.499
+    },
+    {
+      "state": "NJ",
+      "accounts": 6652,
+      "balance_trend": -0.031,
+      "digital_adoption": 0.508
+    },
+    {
+      "state": "OH",
+      "accounts": 7744,
+      "balance_trend": -0.118,
+      "digital_adoption": 0.496
+    }
+  ],
+  "funnel": [
+    {
+      "stage": "Total accounts",
+      "count": 75000,
+      "pct": 100.0
+    },
+    {
+      "stage": "Engaged",
+      "count": 73683,
+      "pct": 98.2
+    },
+    {
+      "stage": "Highly engaged",
+      "count": 57200,
+      "pct": 76.3
+    },
+    {
+      "stage": "Digital enrolled",
+      "count": 37607,
+      "pct": 50.1
+    },
+    {
+      "stage": "Cross-sell adopters",
+      "count": 19793,
+      "pct": 26.4
+    }
+  ],
+  "nudge_severity": {
+    "High": 10943,
+    "Critical": 10435,
+    "Medium": 7582,
+    "Low": 3648
+  },
+  "channel_efficiency": [
+    {
+      "channel": "Digital",
+      "interaction_type": "Login",
+      "volume": 39969,
+      "avg_duration": 3.0,
+      "avg_csat": 4.21,
+      "resolution_rate": 1.0,
+      "est_cost_per_interaction": 0.15,
+      "est_total_cost": 5995.0,
+      "quadrant": "Efficient"
+    },
+    {
+      "channel": "Contact_Center",
+      "interaction_type": "Complaint",
+      "volume": 26215,
+      "avg_duration": 6.99,
+      "avg_csat": 3.0,
+      "resolution_rate": 0.72,
+      "est_cost_per_interaction": 3.84,
+      "est_total_cost": 100666.0,
+      "quadrant": "Channel-shift candidate"
+    },
+    {
+      "channel": "Contact_Center",
+      "interaction_type": "Balance_Inquiry",
+      "volume": 23684,
+      "avg_duration": 7.01,
+      "avg_csat": 4.21,
+      "resolution_rate": 0.93,
+      "est_cost_per_interaction": 3.86,
+      "est_total_cost": 91420.0,
+      "quadrant": "Worth the cost"
+    },
+    {
+      "channel": "Digital",
+      "interaction_type": "Transfer",
+      "volume": 22748,
+      "avg_duration": 3.01,
+      "avg_csat": 4.22,
+      "resolution_rate": 1.0,
+      "est_cost_per_interaction": 0.15,
+      "est_total_cost": 3412.0,
+      "quadrant": "Efficient"
+    },
+    {
+      "channel": "Contact_Center",
+      "interaction_type": "Account_Maintenance",
+      "volume": 21349,
+      "avg_duration": 7.04,
+      "avg_csat": 4.22,
+      "resolution_rate": 0.93,
+      "est_cost_per_interaction": 3.87,
+      "est_total_cost": 82621.0,
+      "quadrant": "Worth the cost"
+    },
+    {
+      "channel": "Contact_Center",
+      "interaction_type": "Card_Dispute",
+      "volume": 21318,
+      "avg_duration": 7.04,
+      "avg_csat": 4.23,
+      "resolution_rate": 0.93,
+      "est_cost_per_interaction": 3.87,
+      "est_total_cost": 82501.0,
+      "quadrant": "Worth the cost"
+    },
+    {
+      "channel": "Branch",
+      "interaction_type": "Deposit",
+      "volume": 20369,
+      "avg_duration": 12.02,
+      "avg_csat": 4.22,
+      "resolution_rate": 1.0,
+      "est_cost_per_interaction": 7.81,
+      "est_total_cost": 159082.0,
+      "quadrant": "Worth the cost"
+    },
+    {
+      "channel": "Digital",
+      "interaction_type": "Balance_Inquiry",
+      "volume": 17069,
+      "avg_duration": 3.01,
+      "avg_csat": 4.22,
+      "resolution_rate": 1.0,
+      "est_cost_per_interaction": 0.15,
+      "est_total_cost": 2560.0,
+      "quadrant": "Efficient"
+    },
+    {
+      "channel": "Branch",
+      "interaction_type": "Withdrawal",
+      "volume": 16879,
+      "avg_duration": 11.96,
+      "avg_csat": 4.22,
+      "resolution_rate": 1.0,
+      "est_cost_per_interaction": 7.77,
+      "est_total_cost": 131150.0,
+      "quadrant": "Worth the cost"
+    },
+    {
+      "channel": "Digital",
+      "interaction_type": "Bill_Pay",
+      "volume": 16773,
+      "avg_duration": 3.0,
+      "avg_csat": 4.21,
+      "resolution_rate": 1.0,
+      "est_cost_per_interaction": 0.15,
+      "est_total_cost": 2516.0,
+      "quadrant": "Efficient"
+    },
+    {
+      "channel": "Contact_Center",
+      "interaction_type": "Fraud_Report",
+      "volume": 14216,
+      "avg_duration": 6.95,
+      "avg_csat": 3.0,
+      "resolution_rate": 0.72,
+      "est_cost_per_interaction": 3.82,
+      "est_total_cost": 54305.0,
+      "quadrant": "Channel-shift candidate"
+    },
+    {
+      "channel": "Contact_Center",
+      "interaction_type": "Loan_Inquiry",
+      "volume": 11798,
+      "avg_duration": 6.99,
+      "avg_csat": 4.22,
+      "resolution_rate": 0.93,
+      "est_cost_per_interaction": 3.84,
+      "est_total_cost": 45304.0,
+      "quadrant": "Worth the cost"
+    },
+    {
+      "channel": "Digital",
+      "interaction_type": "Mobile_Deposit",
+      "volume": 11505,
+      "avg_duration": 3.03,
+      "avg_csat": 4.22,
+      "resolution_rate": 1.0,
+      "est_cost_per_interaction": 0.15,
+      "est_total_cost": 1726.0,
+      "quadrant": "Efficient"
+    },
+    {
+      "channel": "Branch",
+      "interaction_type": "Account_Opening",
+      "volume": 10111,
+      "avg_duration": 12.06,
+      "avg_csat": 4.22,
+      "resolution_rate": 1.0,
+      "est_cost_per_interaction": 7.84,
+      "est_total_cost": 79270.0,
+      "quadrant": "Worth the cost"
+    },
+    {
+      "channel": "Branch",
+      "interaction_type": "Account_Maintenance",
+      "volume": 10077,
+      "avg_duration": 12.08,
+      "avg_csat": 4.22,
+      "resolution_rate": 1.0,
+      "est_cost_per_interaction": 7.85,
+      "est_total_cost": 79104.0,
+      "quadrant": "Worth the cost"
+    },
+    {
+      "channel": "Branch",
+      "interaction_type": "Loan_Inquiry",
+      "volume": 6837,
+      "avg_duration": 12.1,
+      "avg_csat": 4.22,
+      "resolution_rate": 1.0,
+      "est_cost_per_interaction": 7.87,
+      "est_total_cost": 53807.0,
+      "quadrant": "Worth the cost"
+    },
+    {
+      "channel": "Digital",
+      "interaction_type": "Card_Freeze",
+      "volume": 5669,
+      "avg_duration": 3.0,
+      "avg_csat": 4.21,
+      "resolution_rate": 1.0,
+      "est_cost_per_interaction": 0.15,
+      "est_total_cost": 850.0,
+      "quadrant": "Efficient"
+    },
+    {
+      "channel": "Branch",
+      "interaction_type": "Notary",
+      "volume": 3414,
+      "avg_duration": 12.0,
+      "avg_csat": 4.21,
+      "resolution_rate": 1.0,
+      "est_cost_per_interaction": 7.8,
+      "est_total_cost": 26629.0,
+      "quadrant": "Worth the cost"
+    }
+  ],
+  "analysts": [
+    {
+      "analyst": "Omar Hassan",
+      "volume_per_month": 31.0,
+      "accuracy_pct": 96.8,
+      "turnaround_days": 1.6,
+      "collaboration_score": 4.6,
+      "initiative_count": 5,
+      "skill_growth_pct": 24.3,
+      "composite_score": 1.4311299435188811,
+      "composite_rank": 1
+    },
+    {
+      "analyst": "Mei Lin Tan",
+      "volume_per_month": 30.0,
+      "accuracy_pct": 91.0,
+      "turnaround_days": 2.9,
+      "collaboration_score": 4.4,
+      "initiative_count": 3,
+      "skill_growth_pct": 10.6,
+      "composite_score": 0.4774913652105019,
+      "composite_rank": 2
+    },
+    {
+      "analyst": "Aisha Bello",
+      "volume_per_month": 42.0,
+      "accuracy_pct": 81.5,
+      "turnaround_days": 2.1,
+      "collaboration_score": 3.8,
+      "initiative_count": 1,
+      "skill_growth_pct": 17.7,
+      "composite_score": 0.2506183484103199,
+      "composite_rank": 3
+    },
+    {
+      "analyst": "Ryan O'Connell",
+      "volume_per_month": 30.0,
+      "accuracy_pct": 95.3,
+      "turnaround_days": 3.7,
+      "collaboration_score": 4.6,
+      "initiative_count": 0,
+      "skill_growth_pct": 5.9,
+      "composite_score": 0.0935229434119276,
+      "composite_rank": 4
+    },
+    {
+      "analyst": "Nia Thompson",
+      "volume_per_month": 48.0,
+      "accuracy_pct": 85.4,
+      "turnaround_days": 3.2,
+      "collaboration_score": 3.3,
+      "initiative_count": 3,
+      "skill_growth_pct": 6.4,
+      "composite_score": 0.0813031991510092,
+      "composite_rank": 5
+    },
+    {
+      "analyst": "Priya Nair",
+      "volume_per_month": 46.0,
+      "accuracy_pct": 88.8,
+      "turnaround_days": 3.2,
+      "collaboration_score": 3.2,
+      "initiative_count": 2,
+      "skill_growth_pct": 8.0,
+      "composite_score": 0.0570416842820848,
+      "composite_rank": 6
+    },
+    {
+      "analyst": "Devon Clarke",
+      "volume_per_month": 22.0,
+      "accuracy_pct": 80.6,
+      "turnaround_days": 2.2,
+      "collaboration_score": 3.5,
+      "initiative_count": 4,
+      "skill_growth_pct": 6.5,
+      "composite_score": 0.0108511333352956,
+      "composite_rank": 7
+    },
+    {
+      "analyst": "Sofia Reyes",
+      "volume_per_month": 40.0,
+      "accuracy_pct": 84.6,
+      "turnaround_days": 3.5,
+      "collaboration_score": 3.6,
+      "initiative_count": 2,
+      "skill_growth_pct": -5.0,
+      "composite_score": -0.3383117444050162,
+      "composite_rank": 8
+    },
+    {
+      "analyst": "Jenna Wu",
+      "volume_per_month": 53.0,
+      "accuracy_pct": 81.7,
+      "turnaround_days": 3.4,
+      "collaboration_score": 2.6,
+      "initiative_count": 1,
+      "skill_growth_pct": 4.7,
+      "composite_score": -0.4382152152656937,
+      "composite_rank": 9
+    },
+    {
+      "analyst": "Jacob Whitfield",
+      "volume_per_month": 23.0,
+      "accuracy_pct": 81.1,
+      "turnaround_days": 4.4,
+      "collaboration_score": 3.4,
+      "initiative_count": 3,
+      "skill_growth_pct": 6.0,
+      "composite_score": -0.5061776048239033,
+      "composite_rank": 10
+    },
+    {
+      "analyst": "Andre Faulkner",
+      "volume_per_month": 29.0,
+      "accuracy_pct": 85.9,
+      "turnaround_days": 3.4,
+      "collaboration_score": 3.5,
+      "initiative_count": 1,
+      "skill_growth_pct": -4.9,
+      "composite_score": -0.5300351338259943,
+      "composite_rank": 11
+    },
+    {
+      "analyst": "Carlos Mendez",
+      "volume_per_month": 78.0,
+      "accuracy_pct": 79.5,
+      "turnaround_days": 4.8,
+      "collaboration_score": 2.9,
+      "initiative_count": 0,
+      "skill_growth_pct": 1.2,
+      "composite_score": -0.5892189189994099,
+      "composite_rank": 12
+    }
+  ],
+  "worked_examples": {
+    "risk_example": {
+      "account": {
+        "AccountID": "ACC-0046645",
+        "CustomerID": "CUST-0049015",
+        "segment": "Retail",
+        "account_type": "Savings",
+        "state": "NJ",
+        "open_date": "2026-03-08",
+        "tenure_months": 4.4,
+        "current_balance": 7246.75,
+        "avg_balance_90d": 7580.1,
+        "balance_trend_pct": -9.2,
+        "digital_enrolled_flag": 0,
+        "credit_score_band": "740-799",
+        "annual_revenue": null,
+        "num_employees": null,
+        "product_holdings_count": 3,
+        "status": "Active",
+        "total_interactions": 5.0,
+        "complaint_rate": 0.6,
+        "resolution_rate": 0.6,
+        "avg_csat": 3.38,
+        "digital_share": 0.2,
+        "risk_digital": 92.0,
+        "risk_complaint": 100.0,
+        "risk_balance": 15.333333333333332,
+        "risk_tenure": 81.66666666666667,
+        "risk_friction": 40.25,
+        "risk_score": 65.85,
+        "risk_band": "Amber"
+      },
+      "interactions": [
+        {
+          "InteractionID": "INT-00283197",
+          "AccountID": "ACC-0046645",
+          "CustomerID": "CUST-0049015",
+          "channel": "Branch",
+          "interaction_type": "Deposit",
+          "interaction_date": "2025-08-25",
+          "duration_minutes": 9.6,
+          "resolution_flag": 1,
+          "complaint_flag": 0,
+          "csat_score": 4.6,
+          "device_type": null,
+          "branch_id": 1160.0
+        },
+        {
+          "InteractionID": "INT-00144034",
+          "AccountID": "ACC-0046645",
+          "CustomerID": "CUST-0049015",
+          "channel": "Digital",
+          "interaction_type": "Bill_Pay",
+          "interaction_date": "2025-11-13",
+          "duration_minutes": 1.9,
+          "resolution_flag": 1,
+          "complaint_flag": 0,
+          "csat_score": 4.1,
+          "device_type": "Mobile_App",
+          "branch_id": null
+        },
+        {
+          "InteractionID": "INT-00294287",
+          "AccountID": "ACC-0046645",
+          "CustomerID": "CUST-0049015",
+          "channel": "Contact_Center",
+          "interaction_type": "Fraud_Report",
+          "interaction_date": "2025-12-24",
+          "duration_minutes": 5.6,
+          "resolution_flag": 1,
+          "complaint_flag": 1,
+          "csat_score": 2.4,
+          "device_type": null,
+          "branch_id": null
+        },
+        {
+          "InteractionID": "INT-00294057",
+          "AccountID": "ACC-0046645",
+          "CustomerID": "CUST-0049015",
+          "channel": "Contact_Center",
+          "interaction_type": "Fraud_Report",
+          "interaction_date": "2025-12-31",
+          "duration_minutes": 5.1,
+          "resolution_flag": 0,
+          "complaint_flag": 1,
+          "csat_score": 2.5,
+          "device_type": null,
+          "branch_id": null
+        },
+        {
+          "InteractionID": "INT-00009990",
+          "AccountID": "ACC-0046645",
+          "CustomerID": "CUST-0049015",
+          "channel": "Contact_Center",
+          "interaction_type": "Complaint",
+          "interaction_date": "2026-02-19",
+          "duration_minutes": 2.6,
+          "resolution_flag": 0,
+          "complaint_flag": 1,
+          "csat_score": 3.3,
+          "device_type": null,
+          "branch_id": null
+        }
+      ],
+      "payments": [
+        {
+          "TransactionID": "TXN-00067332",
+          "AccountID": "ACC-0046645",
+          "transaction_date": "2025-10-25",
+          "payment_type": "Debit_Card",
+          "direction": "Debit",
+          "amount": 62.56,
+          "merchant_category": "Restaurant",
+          "transaction_status": "Completed",
+          "channel": "Online"
+        },
+        {
+          "TransactionID": "TXN-00073583",
+          "AccountID": "ACC-0046645",
+          "transaction_date": "2026-02-05",
+          "payment_type": "Debit_Card",
+          "direction": "Credit",
+          "amount": 21.95,
+          "merchant_category": "Restaurant",
+          "transaction_status": "Completed",
+          "channel": "Mobile"
+        },
+        {
+          "TransactionID": "TXN-00126957",
+          "AccountID": "ACC-0046645",
+          "transaction_date": "2026-05-13",
+          "payment_type": "ACH",
+          "direction": "Debit",
+          "amount": 1019.72,
+          "merchant_category": null,
+          "transaction_status": "Completed",
+          "channel": "Online"
+        },
+        {
+          "TransactionID": "TXN-00063897",
+          "AccountID": "ACC-0046645",
+          "transaction_date": "2026-07-09",
+          "payment_type": "Debit_Card",
+          "direction": "Credit",
+          "amount": 38.89,
+          "merchant_category": "Utilities",
+          "transaction_status": "Completed",
+          "channel": "ATM"
+        }
+      ]
+    },
+    "smb_example": {
+      "account": {
+        "AccountID": "ACC-0001073",
+        "CustomerID": "CUST-0057067",
+        "segment": "Small_Business",
+        "account_type": "Small_Business_Checking",
+        "state": "DC",
+        "open_date": "2025-05-09",
+        "tenure_months": 14.4,
+        "current_balance": 67015.75,
+        "avg_balance_90d": 72913.14,
+        "balance_trend_pct": -17.6,
+        "digital_enrolled_flag": 0,
+        "credit_score_band": null,
+        "annual_revenue": 769515.03,
+        "num_employees": 172.0,
+        "product_holdings_count": 3,
+        "status": "Active",
+        "total_interactions": 5.0,
+        "complaint_rate": 0.4,
+        "resolution_rate": 0.8,
+        "avg_csat": 4.0,
+        "digital_share": 0.0,
+        "risk_digital": 100.0,
+        "risk_complaint": 100.0,
+        "risk_balance": 29.33333333333333,
+        "risk_tenure": 40.0,
+        "risk_friction": 22.5,
+        "risk_score": 58.366666666666674,
+        "risk_band": "Amber"
+      },
+      "interactions": [
+        {
+          "InteractionID": "INT-00113359",
+          "AccountID": "ACC-0001073",
+          "CustomerID": "CUST-0057067",
+          "channel": "Branch",
+          "interaction_type": "Withdrawal",
+          "interaction_date": "2025-11-02",
+          "duration_minutes": 15.1,
+          "resolution_flag": 1,
+          "complaint_flag": 0,
+          "csat_score": 4.8,
+          "device_type": null,
+          "branch_id": 1144.0
+        },
+        {
+          "InteractionID": "INT-00239356",
+          "AccountID": "ACC-0001073",
+          "CustomerID": "CUST-0057067",
+          "channel": "Contact_Center",
+          "interaction_type": "Account_Maintenance",
+          "interaction_date": "2025-12-15",
+          "duration_minutes": 5.2,
+          "resolution_flag": 1,
+          "complaint_flag": 0,
+          "csat_score": 4.6,
+          "device_type": null,
+          "branch_id": null
+        },
+        {
+          "InteractionID": "INT-00281602",
+          "AccountID": "ACC-0001073",
+          "CustomerID": "CUST-0057067",
+          "channel": "Contact_Center",
+          "interaction_type": "Complaint",
+          "interaction_date": "2026-01-10",
+          "duration_minutes": 2.3,
+          "resolution_flag": 0,
+          "complaint_flag": 1,
+          "csat_score": 3.5,
+          "device_type": null,
+          "branch_id": null
+        },
+        {
+          "InteractionID": "INT-00097672",
+          "AccountID": "ACC-0001073",
+          "CustomerID": "CUST-0057067",
+          "channel": "Contact_Center",
+          "interaction_type": "Loan_Inquiry",
+          "interaction_date": "2026-03-10",
+          "duration_minutes": 6.3,
+          "resolution_flag": 1,
+          "complaint_flag": 0,
+          "csat_score": 3.9,
+          "device_type": null,
+          "branch_id": null
+        },
+        {
+          "InteractionID": "INT-00271195",
+          "AccountID": "ACC-0001073",
+          "CustomerID": "CUST-0057067",
+          "channel": "Contact_Center",
+          "interaction_type": "Complaint",
+          "interaction_date": "2026-04-02",
+          "duration_minutes": 2.4,
+          "resolution_flag": 1,
+          "complaint_flag": 1,
+          "csat_score": 3.2,
+          "device_type": null,
+          "branch_id": null
+        }
+      ],
+      "payments": [
+        {
+          "TransactionID": "TXN-00168956",
+          "AccountID": "ACC-0001073",
+          "transaction_date": "2025-08-02",
+          "payment_type": "Debit_Card",
+          "direction": "Credit",
+          "amount": 88.05,
+          "merchant_category": "Retail",
+          "transaction_status": "Completed",
+          "channel": "Mobile"
+        },
+        {
+          "TransactionID": "TXN-00058365",
+          "AccountID": "ACC-0001073",
+          "transaction_date": "2025-08-19",
+          "payment_type": "ACH",
+          "direction": "Debit",
+          "amount": 354.97,
+          "merchant_category": null,
+          "transaction_status": "Completed",
+          "channel": "In_Branch"
+        },
+        {
+          "TransactionID": "TXN-00164018",
+          "AccountID": "ACC-0001073",
+          "transaction_date": "2026-02-21",
+          "payment_type": "Debit_Card",
+          "direction": "Credit",
+          "amount": 37.07,
+          "merchant_category": "Gas",
+          "transaction_status": "Pending",
+          "channel": "Mobile"
+        }
+      ]
+    },
+    "nudge_example": {
+      "account": {
+        "AccountID": "ACC-0002259",
+        "CustomerID": "CUST-0020707",
+        "segment": "Retail",
+        "account_type": "Checking",
+        "state": "WA",
+        "open_date": "2026-05-23",
+        "tenure_months": 1.9,
+        "current_balance": 2233.09,
+        "avg_balance_90d": 2422.9,
+        "balance_trend_pct": -17.0,
+        "digital_enrolled_flag": 0,
+        "credit_score_band": "740-799",
+        "annual_revenue": null,
+        "num_employees": null,
+        "product_holdings_count": 2,
+        "status": "Active",
+        "total_interactions": 1.0,
+        "complaint_rate": 1.0,
+        "resolution_rate": 0.0,
+        "avg_csat": 2.6,
+        "digital_share": 0.0,
+        "risk_digital": 100.0,
+        "risk_complaint": 100.0,
+        "risk_balance": 28.33333333333333,
+        "risk_tenure": 92.08333333333334,
+        "risk_friction": 80.0,
+        "risk_score": 80.08333333333334,
+        "risk_band": "Red"
+      },
+      "interactions": [
+        {
+          "InteractionID": "INT-00192583",
+          "AccountID": "ACC-0002259",
+          "CustomerID": "CUST-0020707",
+          "channel": "Contact_Center",
+          "interaction_type": "Fraud_Report",
+          "interaction_date": "2026-05-25",
+          "duration_minutes": 0.5,
+          "resolution_flag": 0,
+          "complaint_flag": 1,
+          "csat_score": 2.6,
+          "device_type": null,
+          "branch_id": null
+        }
+      ],
+      "payments": [
+        {
+          "TransactionID": "TXN-00099192",
+          "AccountID": "ACC-0002259",
+          "transaction_date": "2025-09-18",
+          "payment_type": "Debit_Card",
+          "direction": "Credit",
+          "amount": 65.32,
+          "merchant_category": "Restaurant",
+          "transaction_status": "Completed",
+          "channel": "Mobile"
+        },
+        {
+          "TransactionID": "TXN-00042107",
+          "AccountID": "ACC-0002259",
+          "transaction_date": "2025-11-13",
+          "payment_type": "ACH",
+          "direction": "Credit",
+          "amount": 219.35,
+          "merchant_category": null,
+          "transaction_status": "Pending",
+          "channel": "ATM"
+        },
+        {
+          "TransactionID": "TXN-00101588",
+          "AccountID": "ACC-0002259",
+          "transaction_date": "2026-02-17",
+          "payment_type": "ACH",
+          "direction": "Debit",
+          "amount": 1613.61,
+          "merchant_category": null,
+          "transaction_status": "Completed",
+          "channel": "ATM"
+        },
+        {
+          "TransactionID": "TXN-00052069",
+          "AccountID": "ACC-0002259",
+          "transaction_date": "2026-02-19",
+          "payment_type": "ACH",
+          "direction": "Credit",
+          "amount": 1930.72,
+          "merchant_category": null,
+          "transaction_status": "Completed",
+          "channel": "ATM"
+        },
+        {
+          "TransactionID": "TXN-00134067",
+          "AccountID": "ACC-0002259",
+          "transaction_date": "2026-02-23",
+          "payment_type": "Wire",
+          "direction": "Debit",
+          "amount": 25049.9,
+          "merchant_category": null,
+          "transaction_status": "Completed",
+          "channel": "In_Branch"
+        }
+      ]
+    }
+  },
+  "data_as_of": {
+    "min_date": "2025-07-21",
+    "max_date": "2026-07-20"
+  }
+}
